@@ -1,6 +1,6 @@
 {
-  
-  "name": "pariharportfolio",
+  "homepage" : "https://vaibhav221.github.io/pariharportfolio",
+  "name": "vaibhavparihar.in",
   
   "version": "0.1.0",
   
@@ -74,7 +74,9 @@
   },
   
   "scripts": {
-  
+  "predeploy":"npm run build",
+  "deploy":"gh-pages -d build",
+
     
   "start": "concurrently \"npm run server\" \"npm run client\"",
   
