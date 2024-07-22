@@ -1,0 +1,57 @@
+/* src/ScrollingContainer.css */
+#service{
+  background-color: #000000;
+  background-image: url('./backk.svg'); 
+  margin-bottom: 8%;
+}
+
+.containerr {
+  text-align: center;
+  padding: 50px;
+  
+  border-radius: 15px;
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.pre-headingg {
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid #333;
+  color: #fff;
+  display: inline-block;
+  padding: 12px;
+  border-radius: 20px;
+  
+}
+
+.main-headingg {
+  font-size: 60px;
+  font-family: 'blackmango';
+  color: white;
+  margin-bottom: 0;
+}
+
+.sub-headingg {
+  font-size: 24px;
+  margin-bottom: 40px;
+  width: 60%;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 20%;
+  color: grey;
+}
+
+.subtitlee{
+  font-size: 64px;
+  color: #4a4a4a;
+  font-family: "Instrument Serif", serif;
+  padding-bottom: 4%;
+  
+  margin-top: 1%;
+  padding-top: 0;
+}
+
